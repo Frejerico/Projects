@@ -209,25 +209,42 @@ p {
     border-radius: 10px;
 }
 
+.photo-container-hilario {
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+}
+
+.hilario-image {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.image-portrait-random {
+    width: 25%;
+    margin-right: -5px;
+    margin-bottom: 0px;
+}
+
+.image-portrait-two {
+    width: 50%;
+    margin-right: -5px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     flex-direction: column;
-}
-
-.div {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.12);
-    height: 300px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #1cd8d2, #93edc7);
-    color: white;
-    margin: 100px 0;
-    border-radius: 7px;
 }
 
 .pre-debut-image-2 {
@@ -248,4 +265,52 @@ p {
     background: linear-gradient(to right, #1640fc, #b6a2ff);
     color: white;
     border-radius: 7px;
+}
+
+.random-container {
+    padding-top: 40px;
+}
+
+.head-three {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.head-four {
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.head-five {
+    color: rgb(109, 109, 109);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.IG-container {
+    display: flex;
+    height: 30vh;
+}
+
+.thumbnail1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.foot-note {
+    color: rgb(252, 58, 58);
+    font-family: Playfair Display, Arial;
+    font-size: 25px;
+    text-align: center;
 }
